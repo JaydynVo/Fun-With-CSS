@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title> CSS </title>
+    </head>
+
+    <body>
+        <h1> Fun with CSS</h1>
+        <P> Hover over these:</P>
+
+
+
+        <h1>Penguin</h1>
+            <img  class = square src =icy.png>
+
+
+        <h1> Illusion</h1>
+            <img  class = square1 src =spinny.jpg>
+
+            <h1> Message</h1>
+            <div  class = square2> 
+                <br>
+                Hello
+            </div>
+
+        <h1>Paper Plane</h1>
+            <img  class = square3 src =fun.png>
+
+
+
+        
+
+    </body>
+
+</htmL>
+
+<style>
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+
+    }
+
+    .square {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5%;
+        transition: all 0.5s ease-in-out;
+        color: white;
+        
+    }
+
+
+    .square:hover {
+        background-color: rgb(255, 190, 157);
+
+    }
+
+
+    .square1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        transition: all 20s ;
+        color: white;
+        
+    }
+
+    .square1:hover {
+        transform: rotate(3600deg);
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .square2 {
+        height: 100px;
+        width: 200px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5%;
+        transition: all 0.5s ease-in-out;
+        color: rgb(0, 0, 0);
+        text-align: center;
+
+        
+    }
+
+    .square2:hover {
+        background-color: rgb(155, 157, 213);
+
+    }
+
+    .square3 {
+        height: 300px;
+        width: 500px;
+        border-radius: 50%;
+        transition: all 20s ;
+        color: white;
+        
+    }
+
+    .square3:hover {
+        transform: translateX(1000cm) translateY(-200cm);
+    }
+</style>
